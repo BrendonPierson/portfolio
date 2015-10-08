@@ -1,0 +1,127 @@
+@import "settings";
+@import "foundation";
+@import "technologies";
+@import "fancyButton";
+@import "socialButtons";
+@import "projects";
+@import "contact";
+
+
+body {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.mobileNav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index:99;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  &:hover {
+    opacity:1;
+  }
+}
+
+.icon-bar {
+  // margin: 6px 0 0 0;
+  // height: 116px;
+}
+
+#hiddenNav {
+  position: static;
+  visibility: hidden;
+}
+
+.heading {
+  font-family: 'Alfa Slab One', cursive;
+}
+h2.heading {
+    letter-spacing: .1em;
+  }
+
+.accordion-navigation > a:after {
+  content: "↡";
+  padding-left: 5px;
+  float: right;
+  font-size: 20px; }
+.accordion-navigation.active a:after {
+  content: "↟"; }
+
+
+.hero {
+  background: url("../dist/MaxPeter-12.jpg");
+  background-size: cover;
+  box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+  height: 85%;
+}
+
+#landingPage {
+  height: 100%
+}
+
+.magellan-container {
+  background-color: rgb(51, 51, 51);
+}
+
+#skewedDiv {
+  height: 100%;
+  background: rgb(0, 140, 168);
+  transform: skew(0deg, 10deg);
+  margin-top: 100px;
+}
+
+
+
+#techSection {
+  background-color: transparent; 
+  transform: skew(0deg, -10deg);
+  // padding-top: 160px;
+}
+
+#intro {
+  z-index: 5;
+}
+
+
+
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";

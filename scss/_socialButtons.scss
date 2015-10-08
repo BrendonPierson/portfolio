@@ -1,0 +1,104 @@
+.icon-button {
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  background: rgb(51, 51, 51);
+  span{
+  display: block;
+  border-radius: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s;  
+  }
+  &:hover span{
+    display: block;
+    border-radius: 3.6rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: -1.8rem;
+  }
+  i {
+  background: none;
+  height: 3.6rem;
+  width: 3.6rem;
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 10;
+  line-height: 3.6rem;
+  transition: all 0.3s;
+  }
+}
+
+.mail span,
+.telephone span {
+  background-color: rgb(0, 140, 186);
+}
+
+.github span{
+  background-color: #000;
+  // background-color: rgb(0, 140, 168);
+}
+
+.twitter span{
+  background-color: #4099ff;
+}
+
+.facebook span{
+  background-color: #3B5998;
+}
+
+.linkedin span{
+  background-color: #8D6CAB;
+}
+
+.instagram span {
+  background-color: #3373a6;
+}
+
+.icon-button .fi-mail,
+.icon-button .fi-telephone {
+  color: rgb(0, 140, 186);
+}
+
+
+.icon-button .fi-social-instagram {
+  color: #3373a6;
+}
+
+.icon-button .fi-social-github {
+  color: #000;
+  // background-color: rgb(0, 140, 168);
+}
+
+.icon-button .fi-social-twitter{
+  color: #4099ff;
+}
+
+.icon-button .fi-social-facebook{
+  color: #3b5998;
+}
+
+.icon-button .fi-social-linkedin {
+  color: #8D6CAB;
+}
+
+.icon-button:hover .fi-social-twitter,  
+.icon-button:hover .fi-social-github,
+.icon-button:hover .fi-social-facebook, 
+.icon-button:hover .fi-social-linkedin,
+.icon-button:hover .fi-social-instagram,
+.icon-button:hover .fi-mail,
+.icon-button:hover .fi-telephone,{
+  color: white;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+}
