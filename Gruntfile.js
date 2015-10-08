@@ -72,7 +72,15 @@ module.exports = function(grunt) {
           'reports': ['js/**/*.js']
         }
       }
+    }, 
+
+    uglify: {
+    my_target: {
+      files: {
+        'main.min.js': ['bower_components/jquery/dist/jquery.min.js', 'bower_components/foundation/js/foundation.min.js', 'bower_components/foundation/js/foundation/foundation.magellan.js', 'bower_components/foundation/js/foundation/foundation.equalizer.js', 'js/app.js']
+      }
     }
+  }
     
 
 
@@ -82,6 +90,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-notify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-newer');
@@ -90,5 +99,5 @@ module.exports = function(grunt) {
   grunt.task.run('notify_hooks');
 
   grunt.registerTask('build', ['sass']);
-  grunt.registerTask('default', ['build', 'jshint', 'plato', 'newer:imagemin', 'watch']);
+  grunt.registerTask('default', ['build', 'uglify', 'jshint', 'plato', 'newer:imagemin', 'watch']);
 }
