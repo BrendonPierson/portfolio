@@ -98,7 +98,7 @@ $global-radius: 4px;
   }
   
   .image-overlay-content {
-    background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-image: url("/dist/pattern-min.jpg");
     background-color: rgba(0,0,0,0.3);
     transform: translateY(-110%);
     opacity: 1;
@@ -159,7 +159,7 @@ $global-radius: 4px;
   }
   
   .image-overlay-content {
-    background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-image: url("/dist/pattern-min.jpg");
     background-color: rgba(0,0,0,0.3);
     transform: translateX(110%);
     opacity: 1;
@@ -239,7 +239,7 @@ $global-radius: 4px;
   
   .image-overlay-content {
     opacity: 0;
-      background-image: url(http://subtlepatterns.com/patterns/gplaypattern.png);
+      background-image: url("/dist/pattern-min.jpg");
     background-color: rgba(255,255,255, 0.5);
     transition: all 0.4s ease-in-out;
   }
@@ -292,7 +292,7 @@ $global-radius: 4px;
   }
   
   .image-overlay-content {
-    background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-image: url("/dist/pattern-min.jpg");
     background-color: rgba(0,0,0,0.3);
     transform: translateX(-110%);
     opacity: 1;
@@ -352,7 +352,7 @@ $global-radius: 4px;
   }
   
   .image-overlay-content {
-    background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-image: url("/dist/pattern-min.jpg");
     background-color: rgba(0,0,0,0.3);
     transform: translateY(110%);
     opacity: 1;
