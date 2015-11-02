@@ -50,6 +50,7 @@ h2.heading {
 
 .hero {
   background: url("../dist/MaxPeter-12-min.jpg");
+  background-attachment: fixed;
   background-size: cover;
   box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
   height: 85%;

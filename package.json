@@ -16,7 +16,7 @@
     "grunt-plato": "^1.2.1",
     "grunt-reload": "^0.2.0",
     "grunt-sass": "~0.18.0",
-    "node-sass": "~2.0.1",
+    "node-sass": "^3.4.1",
     "time-grunt": "^1.2.1"
   }
 }
